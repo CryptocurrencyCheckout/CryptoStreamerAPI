@@ -7,7 +7,7 @@ The intended use of this API is to allow Cryptocurrencies to easily and automati
 
 
 
-### What is Twitch.tv and why would my coin want exposure on their platform?**
+### What is Twitch.tv and why would my coin want exposure on their platform?
 
 * Twitch.tv is an online streaming site for Gamers, eSports, and Creative Content Creators, it averages an impressive 15 million Daily Active Users.
 
@@ -22,16 +22,16 @@ The intended use of this API is to allow Cryptocurrencies to easily and automati
 
 ### How does this code work?
 
-This is a very basic example of how you can use the CryptocurrencyCheckout CryptoStreamer API.
+* This is a very basic example of how you can use the CryptocurrencyCheckout CryptoStreamer API.
 
 
-When a user signs up to CryptocurrencyCheckout and integrates our Twitch.tv Donation Integration into their Twitch Stream, they will be asked if they would like to participate in accepting your cryptocurrency as donations in exchange for some exposure.
+* When a user signs up to CryptocurrencyCheckout and integrates our Twitch.tv Donation Integration into their Twitch Stream, they will be asked if they would like to participate in accepting your cryptocurrency as donations in exchange for some exposure.
 
 
-If they say yes, our platform will automatically add them and their stream details to our API.
+* If they say yes, our platform will automatically add them and their stream details to our API.
 
 
-The code here will then see the new user accepting your coin through the API call, and it will automatically begin displaying that user on your website/platform with little to no effort on your part.
+* The code here will then see the new user accepting your coin through the API call, and it will automatically begin displaying that user on your website/platform with little to no effort on your part.
 
 
 
