@@ -1,6 +1,6 @@
 <?php
 // Display only your coin.
-$displayCoin = 'znz';
+$displayCoin = 'all';
 // Available Options: all, btc, eth, ltc, dash, send, cdzc, arrr, colx, znz.
 
 //Get Data from CryptocurrencyCheckout CryptoStreamers API
