@@ -10,7 +10,7 @@ $displayStatus = '';
 
 //Enable Pagination for easier sorting of streams onto multiple pages.
 $displayPagination = '';
-// Available Options: numeric = 1 to 20 (streams shown per page. leave empty do disable pagination) 
+// Available Options: numeric = 1 to 20 (streams shown per page. leave empty to disable pagination) 
 
 
 //Get Data from CryptocurrencyCheckout CryptoStreamers API
@@ -73,13 +73,3 @@ $cryptoStreamers = json_decode($results);
   </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
