@@ -1,10 +1,11 @@
-## === CryptocurrencyCheckout CryptoStreamer API ===
+## === CryptocurrencyCheckout CryptoStreamer API Widget ===
 
-This is a basic example of how to connect to and use the CryptocurrencyCheckout CryptoStreamer API.
+This Widget is a basic example of how to connect to and use the CryptocurrencyCheckout CryptoStreamer API.
 The intended use of this API is to allow Cryptocurrencies to easily and automatically display Twitch.tv Streamers that accept their Coin/Token onto their website.
 
 
-
+View the CrpytoStreamer API here:
+https://cryptocurrencycheckout.com/streamers_api?
 
 
 ### What is Twitch.tv and why would my coin want exposure on their platform?
@@ -20,7 +21,7 @@ The intended use of this API is to allow Cryptocurrencies to easily and automati
 
 
 
-### How does this code work?
+### How does this widget work?
 
 * This is a very basic example of how you can use the CryptocurrencyCheckout CryptoStreamer API.
 
@@ -43,7 +44,23 @@ Such as add Twitch Chat directly on your website, hide streams that are offline,
 
 
 
+## Adjustable Options:
 
 ### How do I display only my coin?
-Simply adjust the displayCoin variable to your coins ticker. (must be lowercase.)
-Currently available coins: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz.
+Simply adjust the displayCoin variable to your coins ticker. (input must be lowercase.)
+
+Currently available Coins: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz. (leave blank to display all coins)
+
+
+### How do I show only online/offline Streams?
+Adjust the dispayStatus variable to show only online or offline streams.
+
+Currently available options: online, offline. (leave blank to display all streams)
+
+
+### How do I enable and use pagination?
+Adjust the $displayPagination variable to enable and use pagination. (Control how many streams display per page.)
+
+Currently available options: numeric values 1 to 20. (leave blank to disable pagination)
+
+(Pagination will require additional code to be added to your site to sort through the pages of streams.)

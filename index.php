@@ -1,10 +1,20 @@
 <?php
+
 // Display only your coin.
-$displayCoin = 'all';
-// Available Options: all, btc, eth, ltc, dash, send, cdzc, arrr, colx, znz.
+$displayCoin = '';
+// Available Options: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz. (or leave empty to display all)
+
+//Display only streams that are online/offline
+$displayStatus = '';
+// Available Options: online, offline. (or leave empty to display both)
+
+//Enable Pagination for easier sorting of streams onto multiple pages.
+$displayPagination = '';
+// Available Options: numeric = 1 to 20 (streams shown per page. leave empty do disable pagination) 
+
 
 //Get Data from CryptocurrencyCheckout CryptoStreamers API
-$curl = curl_init('https://cryptocurrencycheckout.com/streamers_api?coin=' . $displayCoin);
+$curl = curl_init('https://cryptocurrencycheckout.com/streamers_api?coin=' . $displayCoin . '&status=' . $displayStatus . '&pagination=' . $displayPagination);
 curl_setopt($curl, CURLOPT_FAILONERROR, true);
 curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
