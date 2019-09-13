@@ -43,7 +43,7 @@ https://cryptocurrencycheckout.com/streamers_api?
 ### How do I display only my coin?
 Simply adjust the displayCoin variable to your coins ticker. (input must be lowercase.)
 
-Currently available Coins: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz. (leave blank to display all coins)
+Currently available Coins: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz, thc, eca, pivx, nbr, gali, bitc, ok, ethplo, ark, veil, doge.(leave blank to display all coins)
 
 
 ### How do I show only online/offline Streams?
