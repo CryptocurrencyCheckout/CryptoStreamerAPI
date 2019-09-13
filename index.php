@@ -2,7 +2,7 @@
 
 // Display only your coin.
 $displayCoin = '';
-// Available Options: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz. (or leave empty to display all)
+// Available Options: btc, eth, ltc, dash, send, cdzc, arrr, colx, znz, thc, eca, pivx, nbr, gali, bitc, ok, ethplo, ark, veil, doge. (or leave empty to display all)
 
 //Display only streams that are online/offline
 $displayStatus = '';
